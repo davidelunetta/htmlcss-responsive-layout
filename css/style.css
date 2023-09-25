@@ -35,7 +35,6 @@ img{
 }
 
 .card-img{
-    width: 30%;
     position: relative;
     top: 10px;
 }
@@ -71,7 +70,7 @@ img{
     text-decoration: none;
     border-radius: 15px;
     color: var(--color-light-color);
-    background-color: var(--color-primary-color);
+    background-color: var(--color-dark-color);
 }
 .btn-secondary{
     background-color: var(--color-secondary-color);
@@ -91,4 +90,33 @@ header{
 footer{
     background-color: var(--color-dark-color);
     color: var(--color-light-color);
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 576px){
+    .d-flex{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .align-stretch{
+        align-items: stretch;
+        align-content: stretch;
+    }
+    #intro .col{
+        width: calc(100% / 3);
+    }
+    #intro .col:first-child{
+        width: calc((100% / 3) * 2);
+    }
+}
+
+@media screen and (min-width: 992px){
+    nav ul{
+        display: flex;
+    }
+    nav .fa-solid.fa-bars{
+        display: none;
+    }
 }
