@@ -17,11 +17,18 @@ body{
     background-color: var(--color-light-color);
     color: var(--color-text);
 }
+img{
+    display: block;
+    width: 100%;
+}
 .container{
     padding: 5px;
 }
 .col{
     padding: 10px;
+}
+.card{
+    height: 100%;
 }
 
 /* UTILITY */
@@ -30,6 +37,12 @@ body{
     background-color: var(--color-primary-color);
 }
 
+.bg-light{
+    background-color: var(--color-light-color);
+}
+.bg.card{
+    background-color: var(--color-bg-card);
+}
 /* HEADER */
 
 header{
