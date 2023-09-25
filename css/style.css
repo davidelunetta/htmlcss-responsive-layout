@@ -21,6 +21,9 @@ img{
     display: block;
     width: 100%;
 }
+ #logo{
+    width: 15%;
+ }
 .container{
     padding: 5px;
 }
@@ -31,8 +34,25 @@ img{
     height: 100%;
 }
 
-/* UTILITY */
+.card-img{
+    width: 30%;
+    position: relative;
+    top: 10px;
+}
+.align-stretch{
+    text-align: center;
+    
+}
 
+/* UTILITY */
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .even-section{
     background-color: var(--color-primary-color);
 }
@@ -40,8 +60,24 @@ img{
 .bg-light{
     background-color: var(--color-light-color);
 }
-.bg.card{
+.bg-card{
     background-color: var(--color-bg-card);
+}
+.small-border-rounded{
+    border-radius: 10px;
+}
+.btn{
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    color: var(--color-light-color);
+    background-color: var(--color-primary-color);
+}
+.btn-secondary{
+    background-color: var(--color-secondary-color);
+}
+.text-secondary{
+    color: var(--color-secondary-color);
 }
 /* HEADER */
 
